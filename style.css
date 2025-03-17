@@ -1,3 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    color: #291B1A;
+    line-height: 150%;
+}
+
 body{
     background-image: url(assets/Página\ de\ receita.png);
     background-size: cover;
@@ -11,9 +21,46 @@ body{
     width: 800px;
     margin: auto;
     margin-top: 48px;
-    margin-bottom: 48px;
+    margin-bottom: 28px;
 }
 
 img{
     border-radius: 16px;
+}
+
+main{
+    padding: 24px;
+}
+
+section + section{
+    margin-top: 24px;
+}
+
+#about p + p{
+    margin-top: 12px;
+}
+
+h1{
+    line-height: 140%;
+    font-size: 40px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h1, h2{
+    color: #573A37;
+    margin-bottom: 4px;
+    line-height: 150%;
+}
+
+ul{
+    padding-left: 24px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    margin-bottom: 48px;
 }
